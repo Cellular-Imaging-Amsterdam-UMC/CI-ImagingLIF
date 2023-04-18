@@ -9,7 +9,9 @@ You can open multiple files
 
 ![ScreenShot of App](https://github.com/Cellular-Imaging-Amsterdam-UMC/CI-ImagingLIF/blob/main/ScreenshotDetail.png?raw=true)
 
-You're free to use this code in any way you like.
+You're free to use this code in any way you like
+
+The code is 99.99% Matlab, 0.01% c++ (github does not index it correctly). Or fully Matlab if you use the .m versions of xml2struct
 
 The code is tested on Windows, so linux/mac users should probably have to change some parts of the code (changing \ in  /)
 The xml2struct and xm2structstring MEX64 sources can be found in the xm2struct subfolder. Or use the slower m files (and change this in the code)
