@@ -20,6 +20,8 @@ from the following link on the MathWorks website: https://www.mathworks.com/prod
 # Citation
 If you like the code and use it for a publication please use the citation provided at this link DOI
 
+[![DOI](https://zenodo.org/badge/629414184.svg)](https://zenodo.org/badge/latestdoi/629414184)
+
 # Used Code
 xml2struct: https://github.com/acampb311/xml2struct
 AdvancedColormap: Andriy Nych (2023). (https://www.mathworks.com/matlabcentral/fileexchange/41583-advancedcolormap), MATLAB Central File Exchange. Retrieved April 18, 2023.
