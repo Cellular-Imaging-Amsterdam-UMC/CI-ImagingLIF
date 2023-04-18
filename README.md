@@ -26,6 +26,8 @@ If you like the code and use it for a publication please use the citation provid
 
 [![DOI](https://zenodo.org/badge/629414184.svg)](https://zenodo.org/badge/latestdoi/629414184)
 
+https://zenodo.org/badge/latestdoi/629414184
+
 # Used Code
 xml2struct: https://github.com/acampb311/xml2struct
 
