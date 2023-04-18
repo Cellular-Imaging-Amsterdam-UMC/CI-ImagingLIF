@@ -20,7 +20,11 @@ function imdata = cfReadIm3D(lifinfo, iminfo, channel, zstart, zend, t, tile)
                 end
                 imdata=reshape(imdata,[iminfo.xs,iminfo.ys,(zend-zstart+1)]);
             else
-                imdata=zeros(iminfo.xs,iminfo.ys,(zend-zstart+1));
+                if iminfo.xbytesinc==1
+                    imdata=zeros(iminfo.xs,iminfo.ys,(zend-zstart+1),'uint8');
+                else
+                    imdata=zeros(iminfo.xs,iminfo.ys,(zend-zstart+1),'uint16');
+                end
                 p=iminfo.channelbytesinc(channel);
                 p=p+(tile-1)*iminfo.tilesbytesinc;
                 p=p+(t-1)*iminfo.tbytesinc;
@@ -38,7 +42,11 @@ function imdata = cfReadIm3D(lifinfo, iminfo, channel, zstart, zend, t, tile)
                 end
             end
         else
-            imdata=zeros(iminfo.xs,iminfo.ys,(zend-zstart+1));
+            if iminfo.xbytesinc==1
+                imdata=zeros(iminfo.xs,iminfo.ys,(zend-zstart+1),'uint8');
+            else
+                imdata=zeros(iminfo.xs,iminfo.ys,(zend-zstart+1),'uint16');
+            end
             p=(tile-1)*iminfo.tilesbytesinc;
             p=p+(t-1)*iminfo.tbytesinc;
 
