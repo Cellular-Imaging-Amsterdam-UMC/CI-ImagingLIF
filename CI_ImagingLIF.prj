@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration build-checksum="3316267746" file="\\amc.intra\users\R\rahoebe\home\MATLAB\GitHub\CI-ImagingLIF\CI_ImagingLIF.prj" location="\\amc.intra\users\R\rahoebe\home\MATLAB\GitHub\CI-ImagingLIF" name="CI_ImagingLIF" preferred-package-location="\\amc.intra\users\R\rahoebe\home\MATLAB\GitHub\CI-ImagingLIF\CI_ImagingLIF\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+  <configuration build-checksum="3316267746" file="L:\basic\Personal Archive\R\rahoebe\GitHub\CI-ImagingLIF\CI_ImagingLIF.prj" location="L:\basic\Personal Archive\R\rahoebe\GitHub\CI-ImagingLIF" name="CI_ImagingLIF" preferred-package-location="\\amc.intra\users\R\rahoebe\home\MATLAB\GitHub\CI-ImagingLIF\CI_ImagingLIF\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
     <param.appname>CI_ImagingLIF</param.appname>
     <param.icon>${PROJECT_ROOT}\CI_ImagingLIF_resources\icon.ico</param.icon>
     <param.icons>
@@ -110,9 +110,9 @@
       <file>${PROJECT_ROOT}\xml2structstring.mexw64</file>
     </fileset.depfun>
     <build-deliverables>
-      <file location="${PROJECT_ROOT}\CI_ImagingLIF\for_testing" name="readme.txt" optional="true">\\amc.intra\users\R\rahoebe\home\MATLAB\GitHub\CI-ImagingLIF\CI_ImagingLIF\for_testing\readme.txt</file>
-      <file location="${PROJECT_ROOT}\CI_ImagingLIF\for_testing" name="CI_ImagingLIF.exe" optional="false">\\amc.intra\users\R\rahoebe\home\MATLAB\GitHub\CI-ImagingLIF\CI_ImagingLIF\for_testing\CI_ImagingLIF.exe</file>
-      <file location="${PROJECT_ROOT}\CI_ImagingLIF\for_testing" name="splash.png" optional="false">\\amc.intra\users\R\rahoebe\home\MATLAB\GitHub\CI-ImagingLIF\CI_ImagingLIF\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\CI_ImagingLIF\for_testing" name="CI_ImagingLIF.exe" optional="false">L:\basic\Personal Archive\R\rahoebe\GitHub\CI-ImagingLIF\CI_ImagingLIF\for_testing\CI_ImagingLIF.exe</file>
+      <file location="${PROJECT_ROOT}\CI_ImagingLIF\for_testing" name="readme.txt" optional="true">L:\basic\Personal Archive\R\rahoebe\GitHub\CI-ImagingLIF\CI_ImagingLIF\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\CI_ImagingLIF\for_testing" name="splash.png" optional="false">L:\basic\Personal Archive\R\rahoebe\GitHub\CI-ImagingLIF\CI_ImagingLIF\for_testing\splash.png</file>
     </build-deliverables>
     <workflow />
     <matlab>
