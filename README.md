@@ -18,7 +18,7 @@ The code is 99.99% Matlab, 0.01% c++ (github does not index it correctly). Or fu
 The code is tested on Windows, so linux/mac users should probably have to change some parts of the code (changing \ in  /)
 The xml2struct and xm2lstructstring MEX64 sources can be found in the xm2struct subfolder. Or use the slower m files (and change this in the code)
 
-To the binary Windows release, download and install the Windows version of the MATLAB Runtime for R2022b 
+To run the binary Windows release, download and install the Windows version of the MATLAB Runtime for R2022b 
 from the following link on the MathWorks website: https://www.mathworks.com/products/compiler/mcr/index.html
 
 # Citation
