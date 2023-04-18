@@ -3,8 +3,9 @@ Accessing Leica LIF and XLEF files in Matlab
 
 
 
-Everyone is free to use this code in there own program. You may also alter and rewrite the code as you like.
+You're free to use this code in any way you like.
 
-If you publish the code (or altered versions) you may refer to:
+# Citation
+If you like the code and use it for a publication please use the citation provided at this link DOI
 
 
