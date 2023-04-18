@@ -1,7 +1,7 @@
 # CI-ImagingLIF
 Accessing Leica LIF and XLEF files in Matlab
 
-
+!(https://github.com/Cellular-Imaging-Amsterdam-UMC/CI-ImagingLIF/blob/main/Screenshot.png?raw=true)
 
 You're free to use this code in any way you like.
 
