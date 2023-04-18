@@ -1,6 +1,8 @@
 # CI-ImagingLIF
 Accessing Leica LIF and XLEF files in Matlab (App written in Matlab version 2022b)
 
+[![View Access Leica LIF and XLEF Files on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://nl.mathworks.com/matlabcentral/fileexchange/48774-access-leica-lif-and-xlef-files)
+
 Matlab App
 
 ![ScreenShot of App](https://github.com/Cellular-Imaging-Amsterdam-UMC/CI-ImagingLIF/blob/main/Screenshot.png?raw=true)
