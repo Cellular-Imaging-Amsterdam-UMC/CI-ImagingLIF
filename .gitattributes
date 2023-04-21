@@ -1,3 +1,6 @@
+* linguist-vendored
+*.m linguist-vendored=false
+
 *.fig binary
 *.mat binary
 *.mdl binary diff merge=mlAutoMerge
